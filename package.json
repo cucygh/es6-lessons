@@ -15,8 +15,7 @@
   },
   "eslintConfig": {
     "plugins": [
-      "html",
-      "babel"
+      "html"
     ],
     "parser": "babel-eslint"
   },
