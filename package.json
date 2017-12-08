@@ -1,0 +1,57 @@
+{
+  "name": "es6-lessons",
+  "version": "1.0.0",
+  "description": "学习ES6的简单不能再简单的环境搭建",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cucygh/es6-lessons.git"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "html",
+      "babel"
+    ],
+    "parser": "babel-eslint"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "webpack.config.js"
+  ],
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "keywords": [
+    "ES6",
+    "Webpack"
+  ],
+  "author": "cuc_ygh@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cucygh/es6-lessons/issues"
+  },
+  "homepage": "https://github.com/cucygh/es6-lessons#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "eslint": "^3.19.0",
+    "eslint-plugin-html": "^4.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
