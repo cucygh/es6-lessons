@@ -31,6 +31,11 @@
 	  cd es6-lessons
 	  npm install
 	  ```
+
+	  ```shell
+	  cd es6-lessons
+	  npm install
+	  ```
 3. **使用**
 
 	a. 在命令行执行
