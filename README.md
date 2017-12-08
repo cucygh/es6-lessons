@@ -7,48 +7,47 @@
 
 1. **下载**
 
-```shell
-git clone git@github.com:cucygh/es6-lessons.git
-```
+	```shell
+	git clone git@github.com:cucygh/es6-lessons.git
+	```
 如果还不了解git的同学，不要犯懒，请移步 [Git基本操作](http://www.runoob.com/git/git-basic-operations.html)。Git操作是前端开发从业人员的必备技能，相信你可以的。
 
 2. **安装**
 
-- Windows
+	- Windows
 
-  如果安装了Git，会有个Gitbash命令行，打开它尽情使用吧
+	  如果安装了Git，会有个Gitbash命令行，打开它尽情使用吧
 
-  ```shell
-  cd es6-lessons
-  npm install
-  ```
+	  ```shell
+	  cd es6-lessons
+	  npm install
+	  ```
 
-- Mac
+	- Mac
 
-  Mac的同学使用Item或者Item2，好用的很
+	  Mac的同学使用Item或者Item2，好用的很
 
-  ```shell
-  cd es6-lessons
-  npm install
-  ```
-
+	  ```shell
+	  cd es6-lessons
+	  npm install
+	  ```
 3. **使用**
 
-  1. 在命令行执行
+	a. 在命令行执行
 
-    ```shell
-    npm start
-    ```
+  ```shell
+  npm start
+  ```
 
-  2. 在浏览器输入 http://localhost:9000
+	b. 在浏览器输入 [http://localhost:9000](http://localhost:9000)
 
-  3. 去 index.js 去编写代码吧，浏览器会自动刷新，不要忘了打开Chrome浏览器调试面板看输出。（按F12即可）
+	c. 去 index.js 去编写代码吧，浏览器会自动刷新，不要忘了打开Chrome浏览器调试面板看输出。（按F12即可）
 
-    ```javascript
-    let log=(item)=>{console.log(item)};
-    log('我要学习ES6')
-    ```
-  4. 如果在Chrome浏览器的调试面板console中看到 我要学习ES6，恭喜你已经运行成功了。
+  ```javascript
+  let log=(item)=>{console.log(item)};
+  log('我要学习ES6')
+  ```
+	d. 如果在Chrome浏览器的调试面板console中看到 我要学习ES6，恭喜你已经运行成功了。
 
 ### 帮助
 
