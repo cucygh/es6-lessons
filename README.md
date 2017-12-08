@@ -40,18 +40,18 @@
 
 	a. 在命令行执行
 
-  ```shell
-  npm start
-  ```
+	  ```shell
+	  npm start
+	  ```
 
 	b. 在浏览器输入 [http://localhost:9000](http://localhost:9000)
 
 	c. 去 index.js 去编写代码吧，浏览器会自动刷新，不要忘了打开Chrome浏览器调试面板看输出。（按F12即可）
 
-  ```javascript
-  let log=(item)=>{console.log(item)};
-  log('我要学习ES6')
-  ```
+	  ```javascript
+	  let log=(item)=>{console.log(item)};
+	  log('我要学习ES6')
+	  ```
 	d. 如果在Chrome浏览器的调试面板console中看到 我要学习ES6，恭喜你已经运行成功了。
 
 ### 帮助
