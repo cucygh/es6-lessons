@@ -21,7 +21,8 @@
 	  ```shell
 	  cd es6-lessons
 	  npm install
-	  ```
+	  npm install webpack webpack-dev-server -g
+	  ```
 
 	- Mac
 
@@ -30,6 +31,7 @@
 	  ```shell
 	  cd es6-lessons
 	  npm install
+	  npm install webpack webpack-dev-server -g
 	  ```
 
 	  ```shell
