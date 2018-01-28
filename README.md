@@ -24,6 +24,7 @@
 	  ```shell
 	  cd es6-lessons
 	  npm install
+	  npm install webpack webpack-dev-server -g
 	  ```
 
 	- Mac
@@ -33,12 +34,9 @@
 	  ```shell
 	  cd es6-lessons
 	  npm install
+	  npm install webpack webpack-dev-server -g
 	  ```
 
-	  ```shell
-	  cd es6-lessons
-	  npm install
-	  ```
 3. **使用**
 
 	a. 在命令行执行
