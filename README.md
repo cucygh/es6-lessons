@@ -2,6 +2,9 @@
 
 最简单的ES6学习环境，请使用 *最新* Chrome 浏览器，最差也要使用 360安全浏览器9.1以上版本（它的webkit内核是55）
 
+欢迎学习 ES6 零基础实战课程，手机扫描二维码：
+
+<img src="./static/es6-lesson-imooc.png" alt="ES6实战课程" width="64" height="64">
 
 ### 如何使用
 

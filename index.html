@@ -7,10 +7,25 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <title>欢迎学习ES6</title>
+    <style media="screen">
+      p{
+        font-weight: bold;
+      }
+      p + code{
+        margin-left: 2em;
+      }
+    </style>
   </head>
   <body>
     <article id="app">
-    
+      <h1>ES6学习教程，只需要三步</h1>
+      <p>第一步、安装依赖包 </p>
+      <code>npm install</code>
+      <p>第二步、在index.js中导入 source 目录对应 js 文件，如：</p>
+      <code>
+        import './lessons/const';
+      </code>
+      <p>第三步、打开 Chrome 浏览器的调试面板，选择 Console 面板，查看运行结果。</p>
     </article>
   </body>
 </html>
