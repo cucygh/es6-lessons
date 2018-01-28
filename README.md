@@ -4,7 +4,7 @@
 
 欢迎学习 ES6 零基础实战课程，手机扫描二维码：
 
-<img src="./static/es6-lesson-imooc.png" alt="ES6实战课程" width="64" height="64">
+<img src="./static/es6-lesson-imooc.png" alt="ES6实战课程" width="84" height="84">
 
 ### 如何使用
 
@@ -58,3 +58,7 @@
 ### 帮助
 
   想测试任何ES6的语法，直接在index.js写，在Chrome面板调试看结果就好。
+
+### 更多教程
+
+除了给大家搭建最简单的构建环境，还编写了很多好玩的教程，有实例有代码，不容错过。移步 <a href="./lesson.md" target="_blank">ES6教程目录</a>
