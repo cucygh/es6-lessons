@@ -39,7 +39,14 @@ console.table([
 
 <img src="../static/scope/var.output.png" alt="var运行结果" width="400">
 
-只所以产生这样的区别，就是 let 是块作用域变量，每次循环的时候循环体就是一个块作用域，let 让变量重新绑定到块作用域。
+只所以产生这样的区别，就是 let 是块作用域变量，每次循环的时候循环体就是一个块作用域，let 让变量重新绑定到块作用域。如果不理解我们说的再通俗一些：
+
+先说 let 声明的变量是块作用域，在上面的代码中 let 声明了两个变量，一个 callbacks ,一个是 i 。callbacks 的块作用域范围是当前的执行块，因为不是在函数内声明的所以他是全局的执行块，注意这里的 callbacks 是不能通过 window 对象访问的。i 是在 for 里声明的，i 的作用域是循环体的 {} 作用域。每执行一次循环体 i 都会重新绑定到 {} 的作用域内从而达到了“隔离”的效果。
+
+再说 var 声明的变量是没有块作用域的，因为不在函数内所以是全局作用域，而且 var 声明的变量是要提升的，而 let 声明的变量不会。上述代码中 var 声明的变量有 callbacks2 和 i 。由于变量提升，i 其实和 callbacks 都是全局作用域是可以通过 window 对象访问的。所以闭包的函数中 i 都指向了全局作用域的 i 。
+
+
+### 参考资料
 
 - [MDN 作用域](https://msdn.microsoft.com/zh-cn/library/bzt2dkta(v=vs.94).aspx)
 - [深入浅出ES6（十四）：let和const](http://www.infoq.com/cn/articles/es6-in-depth-let-and-const)
