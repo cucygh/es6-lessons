@@ -1,6 +1,7 @@
 import './source/const';
 import './source/scope';
 import './source/proxy';
+import './source/arrow-function'
 
-let log=(item)=>{console.log(item)};
-log('我要学习ES6')
+// let log=(item)=>{console.log(item)};
+// log('我要学习ES6')
