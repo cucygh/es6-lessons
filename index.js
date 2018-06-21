@@ -9,4 +9,4 @@
 
 //es7的一些语法支持
 import 'babel-polyfill';
-import './source/js/class/lesson8'
+import './source/js/class/lesson10'
